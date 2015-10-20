@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<atlassian-plugin key="${atlassian.plugin.key}" name="${project.name}" plugins-version="2">
+  <plugin-info>
+    <description>${project.description}</description>
+    <version>${project.version}</version>
+    <vendor name="Øystein Gisnås"/>
+    <param name="plugin-icon">images/pluginIcon.png</param>
+    <param name="plugin-logo">images/pluginLogo.png</param>
+  </plugin-info>
+
+  <rest name="Mail Queue Status" key="mail-queue-status" path="/mailqueue" version="1.0">
+    <description key="mail-queue-status.description">Query current number of messages in the mail queue</description>
+  </rest>
+</atlassian-plugin>
