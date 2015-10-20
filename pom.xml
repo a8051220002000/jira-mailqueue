@@ -132,9 +132,17 @@
 		<atlassian.plugin.key>${project.groupId}.${project.artifactId}</atlassian.plugin.key>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-	
+
 	<scm>
 		<connection>scm:git:https://github.com/oysteing/jira-mailqueue.git</connection>
 		<developerConnection>scm:git:https://github.com/oysteing/jira-mailqueue.git</developerConnection>
 	</scm>
+
+	<distributionManagement>
+		<repository>
+			<id>internal.repo</id>
+			<name>Internal Repository</name>
+			<url>file:///home/oysteigi/gobo/Qweb/maven-repo/</url>
+		</repository>
+	</distributionManagement>
 </project>
