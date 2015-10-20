@@ -132,4 +132,9 @@
 		<atlassian.plugin.key>${project.groupId}.${project.artifactId}</atlassian.plugin.key>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+	
+	<scm>
+		<connection>scm:git:https://github.com/oysteing/jira-mailqueue.git</connection>
+		<developerConnection>scm:git:git://github.com/oysteing/jira-mailqueue.git</developerConnection>
+	</scm>
 </project>
