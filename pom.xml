@@ -134,6 +134,6 @@
 	
 	<scm>
 		<connection>scm:git:https://github.com/oysteing/jira-mailqueue.git</connection>
-		<developerConnection>scm:git:git://github.com/oysteing/jira-mailqueue.git</developerConnection>
+		<developerConnection>scm:git:https://github.com/oysteing/jira-mailqueue.git</developerConnection>
 	</scm>
 </project>
