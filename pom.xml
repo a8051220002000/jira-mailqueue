@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.gisnas.jira</groupId>
 	<artifactId>mailqueue</artifactId>
-	<version>1.0.3-SNAPSHOT</version>
+	<version>1.0.2-SNAPSHOT</version>
 
 	<name>Mail Queue Monitor REST API</name>
 	<description>Expose current mail queue status via REST API to monitor outgoing mail failures</description>
@@ -141,7 +141,7 @@
 		<repository>
 			<id>internal.repo</id>
 			<name>Internal Repository</name>
-			<url>file:///home/oysteing/gobo/Qweb/maven-repo/</url>
+			<url>file:///home/ogisnas/gobo/Qweb/maven-repo/</url>
 		</repository>
 	</distributionManagement>
 </project>
