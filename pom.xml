@@ -141,7 +141,7 @@
 		<repository>
 			<id>internal.repo</id>
 			<name>Internal Repository</name>
-			<url>file:///home/oysteigi/gobo/Qweb/maven-repo/</url>
+			<url>file:///home/oysteing/gobo/Qweb/maven-repo/</url>
 		</repository>
 	</distributionManagement>
 </project>
