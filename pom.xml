@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.gisnas.jira</groupId>
 	<artifactId>mailqueue</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.2-SNAPSHOT</version>
 
 	<name>Mail Queue Monitor REST API</name>
 	<description>Expose current mail queue status via REST API to monitor outgoing mail failures</description>
@@ -75,7 +75,7 @@
 		<plugins>
 			<plugin>
 				<groupId>com.atlassian.maven.plugins</groupId>
-				<artifactId>maven-jira-plugin</artifactId>
+				<artifactId>jira-maven-plugin</artifactId>
 				<version>${amps.version}</version>
 				<extensions>true</extensions>
 				<configuration>
@@ -125,9 +125,9 @@
 		</plugins>
 	</build>
 	<properties>
-		<jira.version>6.4.7</jira.version>
-		<amps.version>6.1.2</amps.version>
-		<atlassian.spring.scanner.version>1.2.6</atlassian.spring.scanner.version>
+		<jira.version>8.0.2</jira.version>
+		<amps.version>8.0.0</amps.version>
+		<atlassian.spring.scanner.version>1.2.13</atlassian.spring.scanner.version>
 		<atlassian.plugin.key>${project.groupId}.${project.artifactId}</atlassian.plugin.key>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
