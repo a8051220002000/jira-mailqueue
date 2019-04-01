@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.gisnas.jira</groupId>
 	<artifactId>mailqueue</artifactId>
-	<version>1.0.3</version>
+	<version>1.0.4-SNAPSHOT</version>
 
 	<name>Mail Queue Monitor REST API</name>
 	<description>Expose current mail queue status via REST API to monitor outgoing mail failures</description>
@@ -135,7 +135,7 @@
 	<scm>
 		<connection>scm:git:https://github.com/oysteing/jira-mailqueue.git</connection>
 		<developerConnection>scm:git:https://github.com/oysteing/jira-mailqueue.git</developerConnection>
-	  <tag>mailqueue-1.0.3</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<distributionManagement>
